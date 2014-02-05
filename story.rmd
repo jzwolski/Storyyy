@@ -1,6 +1,9 @@
 Lab 4
 ========================================================
 
+
+Jie edit hahahahha
+
 What would the world be like if the Normal Curve had never been discovered?
 
 ```{r}
