@@ -32,4 +32,4 @@ You can also embed plots, for example:
 
 ```
 
-
+<img src="http://upload.wikimedia.org/wikipedia/commons/d/d3/Nelumno_nucifera_open_flower_-_botanic_garden_adelaide2.jpg" height="42" width="32">
