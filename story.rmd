@@ -4,14 +4,12 @@ Lab 4
 <<<<<<< HEAD
 =======
 
-Jie edit hahahahha
-Lindsay HAHAHAHAHA!
 
->>>>>>> d871f7e0a1eeb9015bad63bdde33c0c4443861f4
+
+>>>>>>> 
 What would the world be like if the Normal Curve <br> 
 had never been discovered?
 
-I'm not sure.
 
 1. The plot of normal curve
 ```{r}
