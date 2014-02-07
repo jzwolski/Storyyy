@@ -1,0 +1,15 @@
+{
+    "contents" : "Lab 4\n========================================================\n\n<<<<<<< HEAD\n=======\n\n\n\n>>>>>>> \nWhat would the world be like if the Normal Curve <br> \nhad never been discovered?\n\n1. The plot of a normal curve\n```{r}\nx <- seq(-4, 4, length=100)\nhx <- dnorm(x)\n\ndegf <- c(1, 3, 8, 30)\ncolors <- c(\"red\", \"blue\", \"darkgreen\", \"gold\", \"black\")\nlabels <- c(\"df=1\", \"df=3\", \"df=8\", \"df=30\", \"normal\")\n\nplot(x, hx, type=\"l\", lty=2, xlab=\"x value\",\n  ylab=\"Density\", main=\"Comparison of t Distributions\")\n```\n\nYou can also embed plots, for example:\n\n```{r fig.width=7, fig.height=6}\n\n```\n\n<img src=\"http://upload.wikimedia.org/wikipedia/commons/d/d3/Nelumno_nucifera_open_flower_-_botanic_garden_adelaide2.jpg\" height=\"42\" width=\"32\">\n",
+    "created" : 1391742056772.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "699761605",
+    "id" : "9FBCD6F9",
+    "lastKnownWriteTime" : 1391742088,
+    "path" : "~/Dropbox/Shaowei/Storyyy/story.rmd",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}

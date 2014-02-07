@@ -1,0 +1,17 @@
+{
+    "contents" : "Lab 4\n========================================================\n\nWhat would the world be like if the Normal Curve had never been discovered?\n\n```{r}\nsummary(cars)\n```\n\nYou can also embed plots, for example:\n\n```{r fig.width=7, fig.height=6}\nplot(cars)\n```\n\n",
+    "created" : 1391641372976.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2621295465",
+    "id" : "807DE9E3",
+    "lastKnownWriteTime" : 1391642552,
+    "path" : "//iastate.edu/cyfiles/swding/Desktop/GitHub/Storyyy/story.rmd",
+    "project_path" : "story.rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}
