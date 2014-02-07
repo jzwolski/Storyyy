@@ -10,8 +10,7 @@ Lab 4
 What would the world be like if the Normal Curve <br> 
 had never been discovered?
 
-
-1. The plot of normal curve
+1. The plot of a normal curve
 ```{r}
 x <- seq(-4, 4, length=100)
 hx <- dnorm(x)
