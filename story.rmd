@@ -13,6 +13,7 @@ pre {
 ## <p align="center">Lab 4  What would the world be like if the Normal Curve had never been discovered?</p>
 ==
  <p align="center">Shaowei Ding, Jie Liu, Justin Zwolski, Lindsay Rutter </p>
+ <p align="left">Four dreadfully normal authors </p>
 
 
 1. The plot of a normal curve
