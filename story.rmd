@@ -19,7 +19,7 @@ One day, the Earth ventured a wee-bit too close to a blackhole, and all
 the normality it once enjoyed was sucked away forever.
 
 This left the world a scribbled, chicken-scratch mess, as though its blueprint
-came from a two-year old weilding (and then eating) a purple crayon: 
+came from a two-year old wielding a purple crayon: 
 
 ```{r, warning=FALSE, message=FALSE}
 qplot(logic, sanity, geom="path", xlab = "Logic", ylab = "Sanity", main="The World - By Tiny Tim") + theme(legend.position = "none")+geom_path(colour = "purple") 
