@@ -25,6 +25,7 @@ came from a two-year old wielding a purple crayon:
 qplot(logic, sanity, geom="path", xlab = "Logic", ylab = "Sanity", main="The World - By Tiny Tim") + theme(legend.position = "none")+geom_path(colour = "purple") 
 ```
 
+![Crayon](/Users/MacOwner/Desktop/Stat585/Storyyy/crayon)
 
 1. The plot of a normal curve
 ```{r fig.width=8, fig.height=4, fig.align='center'}
