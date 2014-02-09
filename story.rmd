@@ -18,8 +18,7 @@ pre {
 One day, the Earth ventured a wee-bit too close to a blackhole, and all
 the normalness it once enjoyed was sucked away forever.
 
-This left the world a scribbled, chicken-scratch mess, as though its blueprint
-came from a two-year old wielding a purple crayon: 
+This left the world a mess, as though its blueprint came from a two-year old wielding a purple crayon: 
 
 ```{r, warning=FALSE, message=FALSE}
 library(ggplot2)
