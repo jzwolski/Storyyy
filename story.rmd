@@ -13,19 +13,38 @@ pre {
 ## <p align="center">Lab 4  What would the world be like if the Normal Curve had never been discovered?</p>
 ==
  <p align="center">Shaowei Ding, Jie Liu, Justin Zwolski, Lindsay Rutter </p>
- <p align="left">Four dreadfully normal authors </p>
+ <p align="center">(Four dreadfully normal authors)</p>
 
 One day, the Earth ventured a wee-bit too close to a blackhole, and all
-the normality it once enjoyed was sucked away forever.
+the normalness it once enjoyed was sucked away forever.
 
 This left the world a scribbled, chicken-scratch mess, as though its blueprint
 came from a two-year old wielding a purple crayon: 
 
 ```{r, warning=FALSE, message=FALSE}
+library(ggplot2)
+logic <- runif(60, 1, 100)
+sanity <- runif(60, 1, 100)
 qplot(logic, sanity, geom="path", xlab = "Logic", ylab = "Sanity", main="The World - By Tiny Tim") + theme(legend.position = "none")+geom_path(colour = "purple") 
 ```
 
-![Crayon](/Users/MacOwner/Desktop/Stat585/Storyyy/crayon)
+![Crayon](/Users/MacOwner/Desktop/Stat585/Storyyy/crayon.jpg)
+Intelligent designer of the new and abnormal world (on right).
+
+Variables that had followed a normal curve now folled an abnormal spiral into doom!
+For instance, audio frequency ranges between people were now so un-normalized that
+many people could hardly hear each other anymore...
+
+```{r, warning=FALSE, message=FALSE}
+t=c(1:100)
+x = t*cos(t)
+y = t*sin(t)
+qplot(x,y,xlab="Average frequency of right ear (Hz)", ylab = "Average frequency of left ear (Hz)", geom="point", main = "Hearing Ranges:\n Random sampling of 100 people")+geom_path(colour = "green") 
+```
+
+![LOLCat](/Users/MacOwner/Desktop/Stat585/Storyyy/lolcat.jpg)
+
+
 
 1. The plot of a normal curve
 ```{r fig.width=8, fig.height=4, fig.align='center'}
