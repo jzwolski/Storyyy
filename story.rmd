@@ -29,7 +29,9 @@ qplot(logic, sanity, geom="path", xlab = "Logic", ylab = "Sanity", main="The Wor
 ```
 
 ![Crayon](/Users/MacOwner/Desktop/Stat585/Storyyy/crayon.jpg)
-Intelligent designer of the new and abnormal world (on right).
+
+Intelligent designer of the new and abnormal planet Earth (on right).  
+(aka. My cousin after ingesting a purple crayon!)
 
 Variables that once followed a normal curve now followed an abnormal spiral into doom!
 For instance, audio frequency ranges between people were now so un-normalized that
@@ -56,7 +58,9 @@ qplot(x, y, geom="bar", xlab ="Person", ylab ="Height (ft)", main = "Utter Abnor
 
 With people randomly between 1 to 1,000 feet tall, the real-estate business slumped into a chatoic terror:
 
+![Building1](/Users/MacOwner/Desktop/Stat585/Storyyy/building1.jpg)
 
+![Building2](/Users/MacOwner/Desktop/Stat585/Storyyy/building2.jpg)
 
 1. The plot of a normal curve
 ```{r fig.width=8, fig.height=4, fig.align='center'}
