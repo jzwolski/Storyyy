@@ -34,9 +34,7 @@ qplot(logic, sanity, geom="path", xlab = "Logic", ylab = "Sanity", main="The Wor
   theme_bw(base_size=16)
 ```
 
-![Crayon](/Users/MacOwner/Desktop/Stat585/Storyyy/crayon.jpg)
-Lindsay: Please upload your crayon.jpg to this Storyyy folder on github
-and don't change the image name
+![Crayon](/Users/MacOwner/Desktop/Stat585/Storyyy/Pictures/crayon.jpg)
 <img src="crayon.jpg" height=""480" width="620">
 
 Intelligent designer of the new and abnormal planet Earth (on right).  
@@ -58,8 +56,7 @@ y = t*sin(t)
 qplot(x,y,xlab="Average frequency of right ear (Hz)", ylab = "Average frequency of left ear (Hz)", geom="point", main = "Hearing Ranges:\n Random sampling of 100 people")+geom_path(colour = "green")+theme_bw(base_size=16)
 ```
 
-![LOLCat](/Users/MacOwner/Desktop/Stat585/Storyyy/lolcat.jpg)
-Please Upload lolcat.jpg to Storyyy folder
+![LOLCat](/Users/MacOwner/Desktop/Stat585/Storyyy/Pictures/lolcat.jpg)
 <img src="lolcat.jpg" height=""480" width="620">
 
 Statistics professors were mortified because they could no longer organize human height
@@ -78,12 +75,10 @@ qplot(x, y, geom="bar", xlab ="Person", ylab ="Height (ft)", main = "Utter Abnor
 
 With people randomly between 1 to 1,000 feet tall, the real-estate business slumped into a chatoic terror:
 
-![Building1](/Users/MacOwner/Desktop/Stat585/Storyyy/building1.jpg)
-Please Upload building1.jpg to Storyyy folder
+![Building1](/Users/MacOwner/Desktop/Stat585/Storyyy/Pictures/building1.jpg)
 <img src="building1.jpg" height=""480" width="620">
 
-![Building2](/Users/MacOwner/Desktop/Stat585/Storyyy/building2.jpg) 
-Please Upload building2.jpg to Storyyy folder
+![Building2](/Users/MacOwner/Desktop/Stat585/Storyyy/Pictures/building2.jpg) 
 <img src="building2.jpg" height=""480" width="620">
 
 
