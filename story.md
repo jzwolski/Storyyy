@@ -6,17 +6,19 @@ body {
    font-size: 18px;
 }
 pre {
-  font-size: 14px
+  font-size: 14px;
 }
+
 </style>
+
+
 
 ## <p align="center">Lab 4  What would the world be like if the Normal Curve had never been discovered?</p>
 ==
  <p align="center">Shaowei Ding, Jie Liu, Justin Zwolski, Lindsay Rutter </p>
  <p align="center">(Four dreadfully normal authors)</p>
 
-One day, the Earth ventured a wee-bit too close to a blackhole, and all
-the normalness it once enjoyed was sucked away forever.
+One day, while a German mathematician was about to make a historic discovery, the Earth ventured a wee-bit too close to a blackhole, and all knowledge in the world was suddenly distorted.
 
 This left the world a mess, as though its blueprint came from a two-year old wielding a purple crayon: 
 
@@ -26,20 +28,21 @@ library(ggplot2)
 logic <- runif(60, 1, 100)
 sanity <- runif(60, 1, 100)
 qplot(logic, sanity, geom = "path", xlab = "Logic", ylab = "Sanity", main = "The World - By Tiny Tim") + 
-    theme(legend.position = "none") + geom_path(colour = "purple")
+    theme(legend.position = "none") + geom_path(colour = "purple") + theme_bw(base_size = 16)
 ```
 
-![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1.png) 
+<img src="figure/unnamed-chunk-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;" />
 
 
-![Crayon](/Users/MacOwner/Desktop/Stat585/Storyyy/crayon.jpg)
+![Crayon](/Users/MacOwner/Desktop/Stat585/Storyyy/Pictures/crayon.jpg)
+<img src="crayon.jpg" height=""480" width="620">
 
 Intelligent designer of the new and abnormal planet Earth (on right).  
 (aka. My cousin after ingesting a purple crayon!)
 
-Variables that once followed a normal curve now followed an abnormal spiral into doom!
-For instance, audio frequency ranges between people were now so un-normalized that
-many people could hardly hear each other anymore...
+Audio frequency ranges between people went completely crazy that many people could
+hardly hear each other anymore...
+
 
 
 ```r
@@ -48,49 +51,51 @@ x = t * cos(t)
 y = t * sin(t)
 qplot(x, y, xlab = "Average frequency of right ear (Hz)", ylab = "Average frequency of left ear (Hz)", 
     geom = "point", main = "Hearing Ranges:\n Random sampling of 100 people") + 
-    geom_path(colour = "green")
+    geom_path(colour = "green") + theme_bw(base_size = 16)
 ```
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+<img src="figure/unnamed-chunk-2.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
 
 
-![LOLCat](/Users/MacOwner/Desktop/Stat585/Storyyy/lolcat.jpg)
+![LOLCat](/Users/MacOwner/Desktop/Stat585/Storyyy/Pictures/lolcat.jpg)
+<img src="lolcat.jpg" height=""480" width="620">
 
-Statistics professors were mortified because they could no longer organize human height
-as a normal distribution - a textbook example for many years. Instead, human variability
-of height was so random, it seemed that everyone's height was abnormal nowadays: 
+There was a drastic change in human height, which gave statistics professors nightmares. The data just did not make any sense, as human variability in height became so random:
 
 
 ```r
 x = c(1:100)
 y = seq(1, 1000, 10)
 qplot(x, y, geom = "bar", xlab = "Person", ylab = "Height (ft)", main = "Utter Abnormality:\n Random sampling of 100 people", 
-    stat = "identity", fill = as.factor(x)) + theme(legend.position = "none")
+    stat = "identity", fill = as.factor(x)) + theme(legend.position = "none") + 
+    theme_bw(base_size = 16)
 ```
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+<img src="figure/unnamed-chunk-3.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
+
+
 
 
 With people randomly between 1 to 1,000 feet tall, the real-estate business slumped into a chatoic terror:
 
-![Building1](/Users/MacOwner/Desktop/Stat585/Storyyy/building1.jpg)
+![Building1](/Users/MacOwner/Desktop/Stat585/Storyyy/Pictures/building1.jpg)
+<img src="building1.jpg" height=""480" width="620">
 
-![Building2](/Users/MacOwner/Desktop/Stat585/Storyyy/building2.jpg)
-
-1. The plot of a normal curve
-
-```r
-x <- seq(-4, 4, length = 100)
-hx <- dnorm(x)
-plot(x, hx, type = "l", lty = 2, xlab = "x value", ylab = "Density", main = "The plot of a Normal Curve")
-```
-
-<img src="figure/unnamed-chunk-4.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
+![Building2](/Users/MacOwner/Desktop/Stat585/Storyyy/Pictures/building2.jpg) 
+<img src="building2.jpg" height=""480" width="620">
 
 
-You can also embed plots, for example:
+Foreclosures went through the roof, and banks were hit extremely hard, as stocks took a complete nosedive. A depression was imminent, and the public became more and more distressed with the bigwigs in the nation's capital.
 
+Metabolism of living beings was totally altered. The curve of birth and death started to change, and overall population inicreased 10 billion in 5 years.
 
+<img src=http://seedmagazine.com/images/uploads/smallworld_WIDE.jpg" height="350" width="500">
 
+However, it turns out that this chaos was created by the object Pluto:
 
-<img src="http://upload.wikimedia.org/wikipedia/commons/d/d3/Nelumno_nucifera_open_flower_-_botanic_garden_adelaide2.jpg" height="42" width="32">
+<img src="http://thumbpress.com/wp-content/uploads/2013/10/Funniest-Government-Shutdown-Memes-%E2%80%94-3.jpg" height="350" width="500">
+
+Once every nation on Earth recognized Pluto as a planet, everything changed, and the Earth somehow escaped from the blackhole.
+
+To be continued...
+
