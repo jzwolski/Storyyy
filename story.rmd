@@ -21,6 +21,8 @@ pre {
 One day, the Earth ventured a wee-bit too close to a blackhole, and all
 the normalness it once enjoyed was sucked away forever.
 
+One day, while Carl Friedrich Gauss was about to make a historic discovery, the Earth ventured a wee-bit too close to a blackhole, and all knowledge in the world was suddenly distorted.
+
 This left the world a mess, as though its blueprint came from a two-year old wielding a purple crayon: 
 
 ```{r, warning=FALSE, message=FALSE,fig.align='center'}
