@@ -22,13 +22,17 @@ One day, while a German mathematician was about to make a historic discovery, th
 
 This left the world a mess, as though its blueprint came from a two-year old wielding a purple crayon: 
 
-```{r, warning=FALSE, message=FALSE,fig.align='center'}
+
+```r
 library(ggplot2)
 logic <- runif(60, 1, 100)
 sanity <- runif(60, 1, 100)
-qplot(logic, sanity, geom="path", xlab = "Logic", ylab = "Sanity", main="The World - By Tiny Tim") + theme(legend.position = "none")+geom_path(colour = "purple")+
-  theme_bw(base_size=16)
+qplot(logic, sanity, geom = "path", xlab = "Logic", ylab = "Sanity", main = "The World - By Tiny Tim") + 
+    theme(legend.position = "none") + geom_path(colour = "purple") + theme_bw(base_size = 16)
 ```
+
+<img src="figure/unnamed-chunk-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;" />
+
 
 ![Crayon](/Users/MacOwner/Desktop/Stat585/Storyyy/Pictures/crayon.jpg)
 <img src="crayon.jpg" height=""480" width="620">
@@ -40,23 +44,35 @@ Audio frequency ranges between people went completely crazy that many people cou
 hardly hear each other anymore...
 
 
-```{r, warning=FALSE, message=FALSE,fig.align='center'}
-t=c(1:100)
-x = t*cos(t)
-y = t*sin(t)
-qplot(x,y,xlab="Average frequency of right ear (Hz)", ylab = "Average frequency of left ear (Hz)", geom="point", main = "Hearing Ranges:\n Random sampling of 100 people")+geom_path(colour = "green")+theme_bw(base_size=16)
+
+```r
+t = c(1:100)
+x = t * cos(t)
+y = t * sin(t)
+qplot(x, y, xlab = "Average frequency of right ear (Hz)", ylab = "Average frequency of left ear (Hz)", 
+    geom = "point", main = "Hearing Ranges:\n Random sampling of 100 people") + 
+    geom_path(colour = "green") + theme_bw(base_size = 16)
 ```
+
+<img src="figure/unnamed-chunk-2.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
+
 
 ![LOLCat](/Users/MacOwner/Desktop/Stat585/Storyyy/Pictures/lolcat.jpg)
 <img src="lolcat.jpg" height=""480" width="620">
 
 There was a drastic change in human height, which gave statistics professors nightmares. The data just did not make any sense, as human variability in height became so random:
 
-```{r, warning=FALSE, message=FALSE,fig.align='center',fig.width=8,fig.height=6}
+
+```r
 x = c(1:100)
 y = seq(1, 1000, 10)
-qplot(x, y, geom="bar", xlab ="Person", ylab ="Height (ft)", main = "Utter Abnormality:\n Random sampling of 100 people", stat="identity", fill=as.factor(x)) + theme(legend.position = "none")+theme_bw(base_size=16)
+qplot(x, y, geom = "bar", xlab = "Person", ylab = "Height (ft)", main = "Utter Abnormality:\n Random sampling of 100 people", 
+    stat = "identity", fill = as.factor(x)) + theme(legend.position = "none") + 
+    theme_bw(base_size = 16)
 ```
+
+<img src="figure/unnamed-chunk-3.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
+
 
 
 
