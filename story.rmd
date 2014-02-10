@@ -21,6 +21,7 @@ pre {
 One day, the Earth ventured a wee-bit too close to a blackhole, and all
 the normalness it once enjoyed was sucked away forever.
 
+Optional change:
 One day, while Carl Friedrich Gauss was about to make a historic discovery, the Earth ventured a wee-bit too close to a blackhole, and all knowledge in the world was suddenly distorted.
 
 This left the world a mess, as though its blueprint came from a two-year old wielding a purple crayon: 
@@ -45,6 +46,8 @@ Variables that once followed a normal curve now followed an abnormal spiral into
 For instance, audio frequency ranges between people were now so un-normalized that
 many people could hardly hear each other anymore...
 
+
+
 ```{r, warning=FALSE, message=FALSE,fig.align='center'}
 t=c(1:100)
 x = t*cos(t)
@@ -58,7 +61,11 @@ Please Upload lolcat.jpg to Storyyy folder
 
 Statistics professors were mortified because they could no longer organize human height
 as a normal distribution - a textbook example for many years. Instead, human variability
-of height was so random, it seemed that everyone's height was abnormal nowadays: 
+of height was so random, it seemed that everyone's height was abnormal nowadays:
+
+Optional change:
+There was a drastic change in human height, which gave statistics professors nightmares. The data just
+did not make any sense, as human variability in height became so random:
 
 ```{r, warning=FALSE, message=FALSE,fig.align='center',fig.width=8,fig.height=6}
 x = c(1:100)
