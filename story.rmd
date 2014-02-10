@@ -21,8 +21,8 @@ pre {
 One day, the Earth ventured a wee-bit too close to a blackhole, and all
 the normalness it once enjoyed was sucked away forever.
 
-Optional change:
-One day, while Carl Friedrich Gauss was about to make a historic discovery, the Earth ventured a wee-bit too close to a blackhole, and all knowledge in the world was suddenly distorted.
+Optional change:<br>
+One day, while a German mathematician was about to make a historic discovery, the Earth ventured a wee-bit too close to a blackhole, and all knowledge in the world was suddenly distorted.
 
 This left the world a mess, as though its blueprint came from a two-year old wielding a purple crayon: 
 
@@ -46,6 +46,9 @@ Variables that once followed a normal curve now followed an abnormal spiral into
 For instance, audio frequency ranges between people were now so un-normalized that
 many people could hardly hear each other anymore...
 
+Optional change:<br>
+Audio frequency ranges between people went completely crazy that many people could
+hardly hear each other anymore...
 
 
 ```{r, warning=FALSE, message=FALSE,fig.align='center'}
@@ -63,7 +66,7 @@ Statistics professors were mortified because they could no longer organize human
 as a normal distribution - a textbook example for many years. Instead, human variability
 of height was so random, it seemed that everyone's height was abnormal nowadays:
 
-Optional change:
+Optional change:<br>
 There was a drastic change in human height, which gave statistics professors nightmares. The data just
 did not make any sense, as human variability in height became so random:
 
@@ -83,6 +86,17 @@ Please Upload building1.jpg to Storyyy folder
 Please Upload building2.jpg to Storyyy folder
 <img src="building2.jpg" height=""480" width="620">
 
+
+Foreclosures went through the roof, and banks were hit extremely hard, as stocks took a complete nosedive. A depression was imminent, and the public became more and more distressed with the bigwigs in the nation's
+capital.
+
+However, it turns out that this chaos was created by the object Pluto:
+
+<img src="http://thumbpress.com/wp-content/uploads/2013/10/Funniest-Government-Shutdown-Memes-%E2%80%94-3.jpg" height="350" width="500">
+
+Once every nation on Earth recognized Pluto as a planet, everything changed, and the Earth somehow escaped from the blackhole.
+
+To be continued...
 
 
 The plot of a normal curve
