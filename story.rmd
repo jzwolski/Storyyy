@@ -6,9 +6,12 @@ body {
    font-size: 18px;
 }
 pre {
-  font-size: 14px
+  font-size: 14px;
 }
+
 </style>
+
+
 
 ## <p align="center">Lab 4  What would the world be like if the Normal Curve had never been discovered?</p>
 ==
@@ -20,14 +23,18 @@ the normalness it once enjoyed was sucked away forever.
 
 This left the world a mess, as though its blueprint came from a two-year old wielding a purple crayon: 
 
-```{r, warning=FALSE, message=FALSE}
+```{r, warning=FALSE, message=FALSE,fig.align='center'}
 library(ggplot2)
 logic <- runif(60, 1, 100)
 sanity <- runif(60, 1, 100)
-qplot(logic, sanity, geom="path", xlab = "Logic", ylab = "Sanity", main="The World - By Tiny Tim") + theme(legend.position = "none")+geom_path(colour = "purple") 
+qplot(logic, sanity, geom="path", xlab = "Logic", ylab = "Sanity", main="The World - By Tiny Tim") + theme(legend.position = "none")+geom_path(colour = "purple")+
+  theme_bw(base_size=16)
 ```
 
 ![Crayon](/Users/MacOwner/Desktop/Stat585/Storyyy/crayon.jpg)
+Lindsay: Please upload your crayon.jpg to this Storyyy folder on github
+and don't change the image name
+<img src="crayon.jpg" height=""480" width="620">
 
 Intelligent designer of the new and abnormal planet Earth (on right).  
 (aka. My cousin after ingesting a purple crayon!)
@@ -36,43 +43,45 @@ Variables that once followed a normal curve now followed an abnormal spiral into
 For instance, audio frequency ranges between people were now so un-normalized that
 many people could hardly hear each other anymore...
 
-```{r, warning=FALSE, message=FALSE}
+```{r, warning=FALSE, message=FALSE,fig.align='center'}
 t=c(1:100)
 x = t*cos(t)
 y = t*sin(t)
-qplot(x,y,xlab="Average frequency of right ear (Hz)", ylab = "Average frequency of left ear (Hz)", geom="point", main = "Hearing Ranges:\n Random sampling of 100 people")+geom_path(colour = "green") 
+qplot(x,y,xlab="Average frequency of right ear (Hz)", ylab = "Average frequency of left ear (Hz)", geom="point", main = "Hearing Ranges:\n Random sampling of 100 people")+geom_path(colour = "green")+theme_bw(base_size=16)
 ```
 
 ![LOLCat](/Users/MacOwner/Desktop/Stat585/Storyyy/lolcat.jpg)
+Please Upload lolcat.jpg to Storyyy folder
+<img src="lolcat.jpg" height=""480" width="620">
 
 Statistics professors were mortified because they could no longer organize human height
 as a normal distribution - a textbook example for many years. Instead, human variability
 of height was so random, it seemed that everyone's height was abnormal nowadays: 
 
-```{r, warning=FALSE, message=FALSE}
+```{r, warning=FALSE, message=FALSE,fig.align='center',fig.width=8,fig.height=6}
 x = c(1:100)
 y = seq(1, 1000, 10)
-qplot(x, y, geom="bar", xlab ="Person", ylab ="Height (ft)", main = "Utter Abnormality:\n Random sampling of 100 people", stat="identity", fill=as.factor(x)) + theme(legend.position = "none")
+qplot(x, y, geom="bar", xlab ="Person", ylab ="Height (ft)", main = "Utter Abnormality:\n Random sampling of 100 people", stat="identity", fill=as.factor(x)) + theme(legend.position = "none")+theme_bw(base_size=16)
 ```
 
 With people randomly between 1 to 1,000 feet tall, the real-estate business slumped into a chatoic terror:
 
 ![Building1](/Users/MacOwner/Desktop/Stat585/Storyyy/building1.jpg)
+Please Upload building1.jpg to Storyyy folder
+<img src="building1.jpg" height=""480" width="620">
 
-![Building2](/Users/MacOwner/Desktop/Stat585/Storyyy/building2.jpg)
+![Building2](/Users/MacOwner/Desktop/Stat585/Storyyy/building2.jpg) 
+Please Upload building2.jpg to Storyyy folder
+<img src="building2.jpg" height=""480" width="620">
 
-1. The plot of a normal curve
-```{r fig.width=8, fig.height=4, fig.align='center'}
+
+
+The plot of a normal curve
+```{r fig.width=8, fig.height=6, fig.align='center'}
 x <- seq(-4, 4, length=100)
-hx <- dnorm(x)
-plot(x, hx, type="l", lty=2, xlab="x value",
-  ylab="Density", main="The plot of a Normal Curve")
+y <- dnorm(x)
+df<-data.frame(x,y)
+library(ggplot2)
+ggplot(df,aes(x, y))+geom_line(size=0.5)+ylab("Density")+xlab("Value")+
+  labs(title="Normal Curve")+theme_bw(base_size=16)
 ```
-
-You can also embed plots, for example:
-
-```{r fig.width=7, fig.height=6}
-
-```
-
-<img src="http://upload.wikimedia.org/wikipedia/commons/d/d3/Nelumno_nucifera_open_flower_-_botanic_garden_adelaide2.jpg" height="42" width="32">
