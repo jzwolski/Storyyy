@@ -58,6 +58,8 @@ y = seq(1, 1000, 10)
 qplot(x, y, geom="bar", xlab ="Person", ylab ="Height (ft)", main = "Utter Abnormality:\n Random sampling of 100 people", stat="identity", fill=as.factor(x)) + theme(legend.position = "none")+theme_bw(base_size=16)
 ```
 
+
+
 With people randomly between 1 to 1,000 feet tall, the real-estate business slumped into a chatoic terror:
 
 ![Building1](/Users/MacOwner/Desktop/Stat585/Storyyy/Pictures/building1.jpg)
@@ -68,6 +70,10 @@ With people randomly between 1 to 1,000 feet tall, the real-estate business slum
 
 
 Foreclosures went through the roof, and banks were hit extremely hard, as stocks took a complete nosedive. A depression was imminent, and the public became more and more distressed with the bigwigs in the nation's capital.
+
+Metabolism of living beings was totally altered. The curve of birth and death started to change, and overall population inicreased to 10 billion in 5 years.
+
+<img src=http://seedmagazine.com/images/uploads/smallworld_WIDE.jpg" height="350" width="500">
 
 However, it turns out that this chaos was created by the object Pluto:
 
