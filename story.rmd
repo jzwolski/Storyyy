@@ -30,7 +30,7 @@ qplot(logic, sanity, geom="path", xlab = "Logic", ylab = "Sanity", main="The Wor
   theme_bw(base_size=16)
 ```
 
-<img src="Pictures/crayon.jpg" height=""480" width="620">
+<img src="Pictures/crayon.jpg" height=""271" width="350">
 
 Intelligent designer of the new and abnormal planet Earth (on right).  
 (aka. My cousin after ingesting a purple crayon!)
@@ -46,7 +46,7 @@ y = t*sin(t)
 qplot(x,y,xlab="Average frequency of right ear (Hz)", ylab = "Average frequency of left ear (Hz)", geom="point", main = "Hearing Ranges:\n Random sampling of 100 people")+geom_path(colour = "green")+theme_bw(base_size=16)
 ```
 
-<img src="Pictures/lolcat.jpg" height=""480" width="620">
+<img src="Pictures/lolcat.jpg" height=""194" width="250">
 
 There was a drastic change in human height, which gave statistics professors nightmares. The data just did not make any sense, as human variability in height became so random:
 
