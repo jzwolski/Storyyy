@@ -34,8 +34,7 @@ qplot(logic, sanity, geom = "path", xlab = "Logic", ylab = "Sanity", main = "The
 <img src="figure/unnamed-chunk-1.png" title="plot of chunk unnamed-chunk-1" alt="plot of chunk unnamed-chunk-1" style="display: block; margin: auto;" />
 
 
-![Crayon](/Users/MacOwner/Desktop/Stat585/Storyyy/Pictures/crayon.jpg)
-<img src="crayon.jpg" height=""480" width="620">
+<img src="Pictures/crayon.jpg" height=""480" width="620">
 
 Intelligent designer of the new and abnormal planet Earth (on right).  
 (aka. My cousin after ingesting a purple crayon!)
@@ -57,8 +56,7 @@ qplot(x, y, xlab = "Average frequency of right ear (Hz)", ylab = "Average freque
 <img src="figure/unnamed-chunk-2.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
 
 
-![LOLCat](/Users/MacOwner/Desktop/Stat585/Storyyy/Pictures/lolcat.jpg)
-<img src="lolcat.jpg" height=""480" width="620">
+<img src="Pictures/lolcat.jpg" height=""480" width="620">
 
 There was a drastic change in human height, which gave statistics professors nightmares. The data just did not make any sense, as human variability in height became so random:
 
@@ -78,11 +76,9 @@ qplot(x, y, geom = "bar", xlab = "Person", ylab = "Height (ft)", main = "Utter A
 
 With people randomly between 1 to 1,000 feet tall, the real-estate business slumped into a chatoic terror:
 
-![Building1](/Users/MacOwner/Desktop/Stat585/Storyyy/Pictures/building1.jpg)
-<img src="building1.jpg" height=""480" width="620">
+<img src="Pictures/building1.jpg" height=""480" width="620">
 
-![Building2](/Users/MacOwner/Desktop/Stat585/Storyyy/Pictures/building2.jpg) 
-<img src="building2.jpg" height=""480" width="620">
+<img src="Pictures/building2.jpg" height=""480" width="620">
 
 
 Foreclosures went through the roof, and banks were hit extremely hard, as stocks took a complete nosedive. A depression was imminent, and the public became more and more distressed with the bigwigs in the nation's capital.
